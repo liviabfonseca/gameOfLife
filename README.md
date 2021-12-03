@@ -13,8 +13,9 @@ Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado 
 
 ## Setup (Windows):
 ### 1-) Instando o Ruby:
-Para realizar a instalação do Ruby, basta você escolher a versão que se adeque ao seu computador e realizar o download. Em seguida, executar o arquivo baixado e configurar seu ambiente. Você pode baixar o arquivo pelo link:  
-https://rubyinstaller.org/downloads/
+Para realizar a instalação do Ruby, basta você escolher a versão que se adeque ao seu computador e realizar o download. Em seguida, executar o arquivo baixado e configurar seu ambiente. Você pode baixar o arquivo pelo link:
+
+	https://rubyinstaller.org/downloads/
  
 ### 2-) Instale a biblioteca “ruby2d”:
 Para o funcionamento do programa é necessário a instalação da biblioteca “ruby2d”. Para instalar essa biblioteca, você deve executar o seguinte comando no terminal:
@@ -61,37 +62,36 @@ gem install ruby2d
 ### 2) Instale a biblioteca “ruby2d”
 O Ruby 2D precisa de alguns pacotes, que são específicos para cada distribuição do Linux:
 ##### Ubuntu, Debian, and Mint
-        
+
 	sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
        
 ##### CentOS and Fedora
 
-        sudo yum install SDL2-devel SDL2_image-devel SDL2_mixer-devel SDL2_ttf-devel
-        openSUSE
-        sudo zypper install libSDL2-devel libSDL2_image-devel libSDL2_mixer-devel libSDL2_ttf-devel
+	sudo yum install SDL2-devel SDL2_image-devel SDL2_mixer-devel SDL2_ttf-devel
+	openSUSE
+	sudo zypper install libSDL2-devel libSDL2_image-devel libSDL2_mixer-devel libSDL2_ttf-devel
          
 ##### Arch
-    
-        sudo pacman -S sdl2 sdl2_image sdl2_mixer sdl2_ttf
+	sudo pacman -S sdl2 sdl2_image sdl2_mixer sdl2_ttf
        
  
 ### IMPORTANTE!
 A instalação no Linux não é nada trivial comparada ao windows, para alguns erros, esse link foi util:
-	
+
 	https://www.friendlyskies.net/notebook/how-to-install-ruby2d-in-ubuntu-1804
 
 
-## Rodando o jogo: 
+## Rodando o jogo
 ##### 1 -) Clone o repositório
-##### 2 -) Executando o game of life
+##### 2 -) Execute o game of life
 Para abrir o programa basta clicar no executável do jogo
 
-## Funcionamento do nosso protótipo:
+## Funcionamento do nosso protótipo
 ##### 1 -) Clicando na tecla 'p' o jogo é iniciado ou pausado
 ##### 2 -) Clicando na tecla 'c' o grid é limpo
 
-##### Referência:
-Vídeo usado com referência para esse trabalho
+##### Referência
+Vídeo usado com referência para esse trabalho:
 
 	https://www.youtube.com/watch?v=Rp7v1f4lpPU
 
