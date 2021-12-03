@@ -4,25 +4,25 @@ Neste repositório você irá encontrar um protótipo do jogo da vida de Conway 
 ## Sobre o jogo da vida:
 O jogo da vida é um autómato celular desenvolvido pelo matemático John Horton Conway. Esse autômato foi criado de modo a reproduzir, através de regras simples, as alterações e mudanças em grupos de seres vivos, tendo aplicações em diversas áreas da ciência. As regras definidas são aplicadas a cada nova "geração"; assim, a partir de uma imagem em um tabuleiro bi-dimensional definida pelo jogador, percebem-se mudanças muitas vezes inesperadas e belas a cada nova geração, variando de padrões fixos a caóticos.
 
-## As regras do Game of Life são as seguintes:
-Qualquer célula viva com menos de dois vizinhos vivos morre de solidão;
-Qualquer célula viva com mais de três vizinhos vivos morre de superpopulação;
-Qualquer célula morta com exatamente três vizinhos vivos se torna uma célula viva;
-Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado para a próxima geração.
+## Regras do Game of Life:
+1-) Qualquer célula viva com menos de dois vizinhos vivos morre de solidão
+2-) Qualquer célula viva com mais de três vizinhos vivos morre de superpopulação
+3-) Qualquer célula morta com exatamente três vizinhos vivos se torna uma célula viva
+4-) Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado para a próxima geração
  
 
-## Setup (Windows):
-### 1-) Instando o Ruby:
+## Setup (Windows)
+### 1-) Instale o Ruby:
 Para realizar a instalação do Ruby, basta você escolher a versão que se adeque ao seu computador e realizar o download. Em seguida, executar o arquivo baixado e configurar seu ambiente. Você pode baixar o arquivo pelo link:
 
 	https://rubyinstaller.org/downloads/
  
-### 2-) Instale a biblioteca “ruby2d”:
+### 2-) Instale a biblioteca “ruby2d”
 Para o funcionamento do programa é necessário a instalação da biblioteca “ruby2d”. Para instalar essa biblioteca, você deve executar o seguinte comando no terminal:
 gem install ruby2d
 
 ## Setup (Linux):
-### 1-) Instalando o Ruby:
+### 1-) Instalando o Ruby
 #### 1.1-) No seu terminal, clone o repositorio rbenv em ~/.rbenv:
         
 	git clone https://github.com/rbenv/rbenv.git ~/.rbenv
@@ -54,7 +54,7 @@ gem install ruby2d
 #### 1.7 -) Verifique se está tudo funcionando ( $ é o símbolo do prompt):
          
 	$ rbenv versions
-        system
+      	system
         * 3.0.1 (set by /home/<me>/.rbenv/version)
         $ ruby -e "puts 'Hello Ruby'"
         Hello Ruby
@@ -86,7 +86,7 @@ A instalação no Linux não é nada trivial comparada ao windows, para alguns e
 ##### 2 -) Execute o game of life
 Para abrir o programa basta clicar no executável do jogo
 
-## Funcionamento do nosso protótipo
+## Funcionamento do protótipo
 ##### 1 -) Clicando na tecla 'p' o jogo é iniciado ou pausado
 ##### 2 -) Clicando na tecla 'c' o grid é limpo
 
