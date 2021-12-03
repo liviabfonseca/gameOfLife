@@ -24,48 +24,48 @@ gem install ruby2d
 ### 1-) Instalando o Ruby:
 #### 1.1-) No seu terminal, clone o repositorio rbenv em ~/.rbenv:
         
-         git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+	git clone https://github.com/rbenv/rbenv.git ~/.rbenv
         
 
 #### 1.2 -) Instale o ruby-build como um plugin do rbenv, no qual vai adicionar o comando “rbenv install”:
         
-	 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+	git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
         
 	
 #### 1.3 -) Adicione rbenv ao path e inicialize pelo seu ~/.bashrc ou  ~/.bash_profile:
        
-	 export PATH="$HOME/.rbenv/bin:$PATH"
-         eval "$(rbenv init -)"
+	export PATH="$HOME/.rbenv/bin:$PATH"
+	eval "$(rbenv init -)"
          
 #### 1.4 -) Obtenha acesso ao rbenv carregando a nova shell utilizando:
          
-	 source ~/.bashrc  # ou `~/.bash_profile`
+	source ~/.bashrc  # ou `~/.bash_profile`
         
 #### 1.5 -) Instale alguns pacotes (pode não ser necessario):
           
-         https://github.com/rbenv/ruby-build/wiki#suggested-build-environment
+	https://github.com/rbenv/ruby-build/wiki#suggested-build-environment
           
 #### 1.6 -) Instale a última versão do Ruby (3.0.1 até agora) e coloque como padrão global
-         
-          rbenv install 3.0.1
-          rbenv global 3.0.1
+
+ 	rbenv install 3.0.1
+	rbenv global 3.0.1
         
 #### 1.7 -) Verifique se está tudo funcionando ( $ é o símbolo do prompt):
          
-          $ rbenv versions
-          system
-          * 3.0.1 (set by /home/<me>/.rbenv/version)
-          $ ruby -e "puts 'Hello Ruby'"
-          Hello Ruby
+	$ rbenv versions
+        system
+        * 3.0.1 (set by /home/<me>/.rbenv/version)
+        $ ruby -e "puts 'Hello Ruby'"
+        Hello Ruby
         
 ### 2) Instale a biblioteca “ruby2d”
 O Ruby 2D precisa de alguns pacotes, que são específicos para cada distribuição do Linux:
 ##### Ubuntu, Debian, and Mint
         
-        sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
+	sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
        
 ##### CentOS and Fedora
-        
+
         sudo yum install SDL2-devel SDL2_image-devel SDL2_mixer-devel SDL2_ttf-devel
         openSUSE
         sudo zypper install libSDL2-devel libSDL2_image-devel libSDL2_mixer-devel libSDL2_ttf-devel
@@ -89,3 +89,9 @@ Para abrir o programa basta clicar no executável do jogo
 ## Funcionamento do nosso protótipo:
 ##### 1 -) Clicando na tecla 'p' o jogo é iniciado ou pausado
 ##### 2 -) Clicando na tecla 'c' o grid é limpo
+
+##### Referência:
+Vídeo usado com referência para esse trabalho
+
+	https://www.youtube.com/watch?v=Rp7v1f4lpPU
+
