@@ -24,26 +24,26 @@ gem install ruby2d
 ### 1-) Instalando o Ruby:
 #### 1.1-) No seu terminal, clone o repositorio rbenv em ~/.rbenv:
         
-          git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+         git clone https://github.com/rbenv/rbenv.git ~/.rbenv
         
 
 #### 1.2 -) Instale o ruby-build como um plugin do rbenv, no qual vai adicionar o comando “rbenv install”:
         
-	   git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+	 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
         
 	
 #### 1.3 -) Adicione rbenv ao path e inicialize pelo seu ~/.bashrc ou  ~/.bash_profile:
        
-	  export PATH="$HOME/.rbenv/bin:$PATH"
-          eval "$(rbenv init -)"
+	 export PATH="$HOME/.rbenv/bin:$PATH"
+         eval "$(rbenv init -)"
          
 #### 1.4 -) Obtenha acesso ao rbenv carregando a nova shell utilizando:
          
-	  source ~/.bashrc  # ou `~/.bash_profile`
+	 source ~/.bashrc  # ou `~/.bash_profile`
         
 #### 1.5 -) Instale alguns pacotes (pode não ser necessario):
           
-          https://github.com/rbenv/ruby-build/wiki#suggested-build-environment
+         https://github.com/rbenv/ruby-build/wiki#suggested-build-environment
           
 #### 1.6 -) Instale a última versão do Ruby (3.0.1 até agora) e coloque como padrão global
          
