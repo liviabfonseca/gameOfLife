@@ -24,12 +24,12 @@ gem install ruby2d
 ### 1-) Instalando o Ruby:
 #### 1.1-) No seu terminal, clone o repositorio rbenv em ~/.rbenv:
         
-         git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+          git clone https://github.com/rbenv/rbenv.git ~/.rbenv
         
 
 #### 1.2 -) Instale o ruby-build como um plugin do rbenv, no qual vai adicionar o comando “rbenv install”:
         
-	  git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+	   git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
         
 	
 #### 1.3 -) Adicione rbenv ao path e inicialize pelo seu ~/.bashrc ou  ~/.bash_profile:
@@ -77,14 +77,15 @@ O Ruby 2D precisa de alguns pacotes, que são específicos para cada distribuiç
  
 ### IMPORTANTE!
 A instalação no Linux não é nada trivial comparada ao windows, para alguns erros, esse link foi util:
-https://www.friendlyskies.net/notebook/how-to-install-ruby2d-in-ubuntu-1804
+	
+	https://www.friendlyskies.net/notebook/how-to-install-ruby2d-in-ubuntu-1804
 
 
 ## Rodando o jogo: 
-###### 1 -) Clone o repositório
-###### 2 -) Executando o game of life
+##### 1 -) Clone o repositório
+##### 2 -) Executando o game of life
 Para abrir o programa basta clicar no executável do jogo
 
 ## Funcionamento do nosso protótipo:
-###### 1 -) Clicando na tecla 'p' o jogo é iniciado ou pausado
-###### 2 -) Clicando na tecla 'c' o grid é limpo
+##### 1 -) Clicando na tecla 'p' o jogo é iniciado ou pausado
+##### 2 -) Clicando na tecla 'c' o grid é limpo
