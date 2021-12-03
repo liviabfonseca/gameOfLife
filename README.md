@@ -89,7 +89,7 @@ Para abrir o programa basta clicar no executável do jogo
 ##### 1 -) Clicando na tecla 'p' o jogo é iniciado ou pausado
 ##### 2 -) Clicando na tecla 'c' o grid é limpo
 
-##### Referência
+### Referências
 Vídeo usado com referência para esse trabalho:
 
 	https://www.youtube.com/watch?v=Rp7v1f4lpPU
