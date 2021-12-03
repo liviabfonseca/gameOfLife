@@ -12,16 +12,16 @@ Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado 
  
 
 ## Setup (Windows):
-### 1 -)Instando o Ruby:
+### 1-) Instando o Ruby:
 Para realizar a instalação do Ruby, basta você escolher a versão que se adeque ao seu computador e realizar o download. Em seguida, executar o arquivo baixado e configurar seu ambiente. Você pode baixar o arquivo pelo link:  
 https://rubyinstaller.org/downloads/
  
-### 2 -) Instale a biblioteca “ruby2d”:
+### 2-) Instale a biblioteca “ruby2d”:
 Para o funcionamento do programa é necessário a instalação da biblioteca “ruby2d”. Para instalar essa biblioteca, você deve executar o seguinte comando no terminal:
 gem install ruby2d
 
 ## Setup (Linux):
-### 1 -) Instalando o Ruby:
+### 1-) Instalando o Ruby:
 #### 1.1-) No seu terminal, clone o repositorio rbenv em ~/.rbenv:
         
          git clone https://github.com/rbenv/rbenv.git ~/.rbenv
@@ -81,10 +81,10 @@ https://www.friendlyskies.net/notebook/how-to-install-ruby2d-in-ubuntu-1804
 
 
 ## Rodando o jogo: 
-1 -) Clone o repositório
-2 -) Executando o game of life
+###### 1 -) Clone o repositório
+###### 2 -) Executando o game of life
 Para abrir o programa basta clicar no executável do jogo
 
 ## Funcionamento do nosso protótipo:
-1 -) Clicando na tecla 'p' o jogo é iniciado ou pausado
-2 -) Clicando na tecla 'c' o grid é limpo
+###### 1 -) Clicando na tecla 'p' o jogo é iniciado ou pausado
+###### 2 -) Clicando na tecla 'c' o grid é limpo
