@@ -81,11 +81,10 @@ https://www.friendlyskies.net/notebook/how-to-install-ruby2d-in-ubuntu-1804
 
 
 ## Rodando o jogo: 
-### 1 -) Clone o repositório
-
-### 2 -) Executando o game of life
+1 -) Clone o repositório
+2 -) Executando o game of life
 Para abrir o programa basta clicar no executável do jogo
 
 ## Funcionamento do nosso protótipo:
-#### 1 -) Clicando na tecla 'p' o jogo é iniciado ou pausado
-#### 2 -) Clicando na tecla 'c' o grid é limpo
+1 -) Clicando na tecla 'p' o jogo é iniciado ou pausado
+2 -) Clicando na tecla 'c' o grid é limpo
