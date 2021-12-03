@@ -5,10 +5,10 @@ Neste repositório você irá encontrar um protótipo do jogo da vida de Conway 
 O jogo da vida é um autómato celular desenvolvido pelo matemático John Horton Conway. Esse autômato foi criado de modo a reproduzir, através de regras simples, as alterações e mudanças em grupos de seres vivos, tendo aplicações em diversas áreas da ciência. As regras definidas são aplicadas a cada nova "geração"; assim, a partir de uma imagem em um tabuleiro bi-dimensional definida pelo jogador, percebem-se mudanças muitas vezes inesperadas e belas a cada nova geração, variando de padrões fixos a caóticos.
 
 ## Regras do Game of Life:
-1-) Qualquer célula viva com menos de dois vizinhos vivos morre de solidão
-2-) Qualquer célula viva com mais de três vizinhos vivos morre de superpopulação
-3-) Qualquer célula morta com exatamente três vizinhos vivos se torna uma célula viva
-4-) Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado para a próxima geração
+###### 1-) Qualquer célula viva com menos de dois vizinhos vivos morre de solidão
+###### 2-) Qualquer célula viva com mais de três vizinhos vivos morre de superpopulação
+###### 3-) Qualquer célula morta com exatamente três vizinhos vivos se torna uma célula viva
+###### 4-) Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado para a próxima geração
  
 
 ## Setup (Windows)
@@ -52,12 +52,11 @@ gem install ruby2d
 	rbenv global 3.0.1
         
 #### 1.7 -) Verifique se está tudo funcionando ( $ é o símbolo do prompt):
-         
 	$ rbenv versions
-      	system
-        * 3.0.1 (set by /home/<me>/.rbenv/version)
-        $ ruby -e "puts 'Hello Ruby'"
-        Hello Ruby
+	system
+	* 3.0.1 (set by /home/<me>/.rbenv/version)
+	$ ruby -e "puts 'Hello Ruby'"
+	Hello Ruby
         
 ### 2) Instale a biblioteca “ruby2d”
 O Ruby 2D precisa de alguns pacotes, que são específicos para cada distribuição do Linux:
